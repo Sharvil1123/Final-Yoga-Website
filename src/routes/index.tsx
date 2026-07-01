@@ -33,12 +33,12 @@ export const Route = createFileRoute("/")({
 });
 
 const experiencePillars = [
-  { label: "Mindful Asana Practice", img: poseTree.url },
-  { label: "Pranayama", img: posePranayama.url },
-  { label: "Trataka Meditation", img: poseTrataka.url },
-  { label: "Mantra Chanting", img: poseMeditation.url },
-  { label: "Practical Yoga Philosophy", img: posePhilosophy.url },
-  { label: "Student Reflection & Community Sharing", img: poseCommunity.url },
+  { label: "Mindful Asana Practice", img: poseTree },
+  { label: "Pranayama", img: posePranayama },
+  { label: "Trataka Meditation", img: poseTrataka },
+  { label: "Mantra Chanting", img: poseMeditation },
+  { label: "Practical Yoga Philosophy", img: posePhilosophy },
+  { label: "Student Reflection & Community Sharing", img: poseCommunity },
 ];
 
 const testimonials = [
@@ -51,8 +51,8 @@ const testimonials = [
 ];
 
 const wellnessImages = [
-  { src: wpCorporateAsset.url, alt: "A corporate yoga session led at Illusion Lab" },
-  { src: wpSchoolAsset.url, alt: "A guided yoga session for school students" },
+  { src: wpCorporateAsset, alt: "A corporate yoga session led at Illusion Lab" },
+  { src: wpSchoolAsset, alt: "A guided yoga session for school students" },
 ];
 
 function WellnessGallery() {
