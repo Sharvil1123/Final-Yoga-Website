@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
         <div className="grid gap-12 md:grid-cols-3">
           <div>
-            <img src={logoDark.url} alt="House of Yoga" className="h-16 w-auto" width={64} height={64} />
+            <img src={logoDark} alt="House of Yoga" className="h-16 w-auto" width={64} height={64} />
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-muted-foreground">
               Experience the Yoga. A calm sanctuary to cultivate awareness, inner
               peace and conscious living through authentic Indian tradition.
